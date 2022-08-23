@@ -57,3 +57,17 @@ section > img{
     display: block;
     margin: auto;
 }
+
+section.image{
+    background-image: url(../imagens/moto01.jpeg);
+    height: 700px;
+    background-size: cover;
+    box-shadow:inset 5px 5px 5px rgba(0, 0, 0, 0.506);
+    background-attachment: fixed;
+}
+
+section.image > p{
+    background-color:rgba(0, 0, 0, 0.418);
+    width: 180px;
+    color: white;
+}
