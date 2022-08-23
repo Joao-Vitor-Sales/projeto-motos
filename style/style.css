@@ -135,3 +135,23 @@ section#image04 > p{
     width: 90%;
     height: 90%;
 }
+
+footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+footer > p > a{
+    color: white;
+    text-decoration: none;
+    padding: 3px;
+}
+
+footer > p > a:hover{
+    background-color: white;
+    color: black;
+    text-decoration: underline;
+    border-radius: 3px;
+}
