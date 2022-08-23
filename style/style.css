@@ -52,3 +52,8 @@ section > p{
     text-indent: 15px;
     line-height: 2em;
 }
+
+section > img{
+    display: block;
+    margin: auto;
+}
