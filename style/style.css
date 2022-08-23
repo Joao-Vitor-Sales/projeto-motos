@@ -58,15 +58,31 @@ section > img{
     margin: auto;
 }
 
-section.image{
+section#image01{
     background-image: url(../imagens/moto01.jpeg);
     height: 700px;
-    background-size: cover;
     box-shadow:inset 5px 5px 5px rgba(0, 0, 0, 0.506);
+    background-size: cover;
     background-attachment: fixed;
+    background-position: center center;
 }
 
-section.image > p{
+section#image02{
+    background-image: url(../imagens/moto02.jpg);
+    height: 700px;
+    box-shadow:inset 5px 5px 5px rgba(0, 0, 0, 0.506);
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center center;
+}
+
+section#image01 > p{
+    background-color:rgba(0, 0, 0, 0.418);
+    width: 180px;
+    color: white;
+}
+
+section#image02 > p{
     background-color:rgba(0, 0, 0, 0.418);
     width: 180px;
     color: white;
