@@ -76,6 +76,24 @@ section#image02{
     background-position: center center;
 }
 
+section#image03{
+    background-image: url(../imagens/moto03.jpg);
+    height: 700px;
+    box-shadow:inset 5px 5px 5px rgba(0, 0, 0, 0.506);
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center center;
+}
+
+section#image04{
+    background-image: url(../imagens/moto04.jpg);
+    height: 700px;
+    box-shadow:inset 5px 5px 5px rgba(0, 0, 0, 0.506);
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center center;
+}
+
 section#image01 > p{
     background-color:rgba(0, 0, 0, 0.418);
     width: 180px;
@@ -86,4 +104,34 @@ section#image02 > p{
     background-color:rgba(0, 0, 0, 0.418);
     width: 180px;
     color: white;
+}
+
+section#image03 > p{
+    background-color:rgba(0, 0, 0, 0.418);
+    width: 180px;
+    color: white;
+}
+
+section#image04 > p{
+    background-color:rgba(0, 0, 0, 0.418);
+    width: 180px;
+    color: white;
+}
+
+#video{
+    background-color: black;
+    margin-bottom: 30px;
+    padding: 20px;
+
+    position: relative;
+    padding-bottom: 50%;
+}
+
+#video > iframe{
+    position: absolute;
+
+    top: 5%;
+    left: 5%;
+    width: 90%;
+    height: 90%;
 }
